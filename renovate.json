@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+  ],
+  "commitMessagePrefix": "⬆️",
+  "rebaseWhen": "behind-base-branch",
+  "reviewers": ["loxygenK"]
+}
