@@ -2,8 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
+    "group:allNonMajor"
   ],
   "commitMessagePrefix": "⬆️",
   "rebaseWhen": "behind-base-branch",
-  "reviewers": ["loxygenK"]
+  "assignees": ["loxygenK"],
+  "reviewers": ["loxygenK"],
+  "timezone": "Asia/Tokyo",
+  "dependencyDashboard": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
